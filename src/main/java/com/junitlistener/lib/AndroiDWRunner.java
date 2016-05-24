@@ -1,4 +1,4 @@
-package com.tula.lib;
+package com.junitlistener.lib;
 
 import android.app.Activity;
 import android.app.Instrumentation;
