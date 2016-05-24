@@ -11,8 +11,13 @@ I created this 'fork' as the above code didnt worked for me on android OS 4+
 In order to build you need Gradle 
 
 1) run gradle build 
+
 2) go to build/outputs/aar
+
 3) unzip android-report-release.aar
+
 4) copy classes.jar into your android application libs folder (you can rename the jar name)
+
 5) change in AndroidManifest.xml in <instrumentation> tag android:name to com.junitlistener.lib.AndroiDWRunner.java
+
 6) now when you will run tests with this runner , the report file will be created in junitlistener folder in the device 
