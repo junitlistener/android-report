@@ -1,4 +1,4 @@
-package com.junitlistener.lib;
+package com.github.junitlistener.lib;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

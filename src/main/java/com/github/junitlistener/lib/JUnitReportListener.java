@@ -1,20 +1,12 @@
-package com.junitlistener.lib;
+package com.github.junitlistener.lib;
 
 import android.content.Context;
-import android.content.Intent;
-import android.os.Environment;
 import android.support.test.internal.runner.listener.InstrumentationRunListener;
 import android.util.Log;
 import android.util.Xml;
-
-import junit.framework.AssertionFailedError;
-import junit.framework.Test;
-import junit.framework.TestCase;
-
 import org.junit.runner.Description;
 import org.junit.runner.notification.Failure;
 import org.xmlpull.v1.XmlSerializer;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.junitlistener.lib;
+package com.github.junitlistener.lib;
 
 import android.app.Activity;
 import android.app.Instrumentation;
@@ -121,7 +121,7 @@ public class AndroiDWRunner extends MonitoringInstrumentation {
             // I used external folder to save the results
             this.mListener = new JUnitReportListener(getTargetContext(),
                     "junit.xml",
-                    Environment.getExternalStorageDirectory().getAbsolutePath() + "/test_results/",
+                    Environment.getExternalStorageDirectory().getAbsolutePath() + "/junitReport/",
                     false,
                     true);
 
