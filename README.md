@@ -8,7 +8,7 @@ This project is a 'fork'  from http://zutubi.com/source/projects/android-junit-r
 I created this 'fork' as the above code didnt worked for me on android OS 4+
 
 
-In order to build you need Gradle 
+In order to build you need Gradle (Gradle version 2.10+)
 
 1) run gradle build 
 
