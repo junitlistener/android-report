@@ -20,4 +20,6 @@ In order to build you need Gradle (Gradle version 2.10+)
 
 5) change in AndroidManifest.xml in <instrumentation> tag android:name to com.junitlistener.lib.AndroiDWRunner.java
 
+or in gradle set testInstrumentationRunner "com.junitlistener.lib.AndroiDWRunner"
+
 6) now when you will run tests with this runner , the report file will be created in junitlistener folder in the device 
