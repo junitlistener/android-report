@@ -88,7 +88,7 @@ public class AndroiDWRunner extends MonitoringInstrumentation {
     // This method send broadcast message to another application on the device , I use it to know when test finish for the target package
     private void send(){
         Intent intent = new Intent();
-        intent.setAction("com.tula.test.finished");
+        intent.setAction("com.github.junitlistener.finished");
         intent.putExtra("package", mArguments.getString("package"));
         getContext().sendBroadcast(intent);
     }
