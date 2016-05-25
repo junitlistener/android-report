@@ -18,8 +18,8 @@ In order to build you need Gradle (Gradle version 2.10+)
 
 4) copy classes.jar into your android application libs folder (you can rename the jar name)
 
-5) change in AndroidManifest.xml in <instrumentation> tag android:name to com.junitlistener.lib.AndroiDWRunner.java
+5) change in AndroidManifest.xml in <instrumentation> tag android:name to com.github.junitlistener.lib.AndroiDWRunner.java
 
-or in gradle set testInstrumentationRunner "com.junitlistener.lib.AndroiDWRunner"
+or in gradle set testInstrumentationRunner "com.github.junitlistener.lib.AndroiDWRunner"
 
-6) now when you will run tests with this runner , the report file will be created in junitlistener folder in the device 
+6) now when you will run tests with this runner , the report file will be created in junitReport folder in the device 
